@@ -1,0 +1,113 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ .header {
+    background:rgb(27, 27, 27);
+    width: 100%;
+    color: white;
+    padding: 15px;
+    
+    /* hacer el menu fijo */
+    position:fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    /* ocuapamos todo el ancho */
+    right: 0;
+  }
+   
+  .header a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    /* lo alineamos al centro */
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .imagen{
+    width: 110px;
+    height: 50px;
+    
+}
+  
+  .menu-icon {
+    display: none;
+  }
+  .icon{
+    
+    font-size: 30px;
+    color: red;
+    
+  }
+  
+  /* todos los "ul" que esten dentro de "navigation" */
+  .navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .navigation ul li {
+    /* uno al lado del otro */
+    display: inline-block;
+    
+  }
+  
+  /* los enlaces dentro del menu */
+  .navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s linear;
+    border-radius: 5px;
+    font-size: 20px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .navigation ul li a:hover {
+    background: #cc4444;
+  }
+  
+  /* REPONSIVE */
+  /* todas las caracteristicas que se mostraran a continuancion seran cuando tenga un ancho maximo de 767px */
+  
+  @media only screen and (max-width: 767px) {
+      .menu-icon{
+          display: block;
+          cursor: pointer;
+      }
+  
+      .navigation{
+          width: 100%;
+      }
+      .navigation ul{
+          display: none;
+      }
+      .navigation ul.show{
+          display: block;
+      }
+        
+      .navigation ul li {
+          display: block;
+        }
+        
+        /* los enlaces dentro del menu */
+        .navigation ul li a {
+          display: block;
+          padding: 0.5rem 1rem;
+          transition: all 0.2s linear;
+          border-radius: 5px;
+        }
+        
+        .navigation ul li a:hover {
+          background: #cc4444;
+        }
+  }
+

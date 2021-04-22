@@ -1,0 +1,1960 @@
+/******************************************/
+/***    DISEÑO PARA PC NOOTBUK     1024PX  
+
+@media only screen and (max-width:991px){
+
+}
+
+
+TAMAÑOS QUE MANEJA BOOTSTRAP PARA DIFERENTES DISPOSITIVOS:
+    xs ( < 575  )    TAMAÑO CELULAR
+    sm  (576 - 767)  TAMAÑO CELULAR
+    md  (768 - 991)  TAMAÑO SMART FONE O TABLETA
+    lg  (992 - 1199) TAMAÑO MONITORES ANTIGUOS O TABLES DE ALTA RESOLLUCION
+    xl  (1200 - > )  TAMAÑO PARA PC DE ESCRITORIO
+
+    
+/******************************************/
+/******************************************/
+/*****************************************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/FONDO_PARA_TARJETAS.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
+/*************CONTENEDOR CUADRO RED*****************************/
+/******************************************/
+/******************************************/
+.contenedor_cuadro_presentacion{
+    margin-top:80px;
+    width: 100%;
+    background-image: url(../img/imagen_cabezera.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+.cuadro{
+    width: 100%;
+    height: 490px;
+    background: rgba(0, 0, 0, 0.74);
+    padding-top: 40px;
+}
+/*@keyframes movimiento{
+    animation: movimiento 10s infinite linear alternate;
+    from{
+     background-position: bottom left ;
+    }to{
+     background-position: top right;
+    }
+}*/
+/*.contenedor_cuadro_presentacion .cuadro{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/FRANJA_MAYOR.png);
+    background-size: 100% 100%;
+    
+}*/
+.titulo_principal{
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    
+}
+.subtitle{
+    text-align: center;
+    color: rgb(160, 160, 160);
+    font-size: 20px;
+}
+
+
+.contenedor_redessociales{
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    margin-top: 190px;
+    display: flex;
+    justify-content:space-around;
+}
+.instagram{
+    width: 43px;
+    height: 43px;
+    background-image: url(../img/instagram.png);
+    background-size:cover;
+}
+.faccebook{
+    width: 43px;
+    height: 43px;
+    background-image: url(../img/Facebook-Icon_34072.png);
+    background-size: cover;
+
+}
+.twiter{
+    width: 43px;
+    height: 43px;
+    background-image: url(../img/Whatsapp-Icon_33936.png);
+    background-size: cover;
+}
+.youtube{
+    width: 43px;
+    height: 43px;
+    background-image: url(../img/youtube.png);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+/*************CONTENEDOR ACERCA DE*****************************/
+/******************************************/
+/******************************************/
+#cont_descripcion_foto{
+    width: 100%;
+    padding: 20px;
+    padding-top: 80px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedor_izq{
+    width: 500px;
+    padding: 30px;
+}
+
+.titulo_acerca{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+}
+.descripcion_acerca{
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+
+.contenedor_der{
+    
+    width: 500px;
+     
+} 
+.contenedor_der .foto{
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/foto.jpg);
+    background-size: 100% 100%; 
+    margin:auto;
+    border-radius:50%;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+
+
+
+
+
+
+/*************CONTENEDOR PORTAFOLIO*****************************/
+/******************************************/
+/******************************************/
+#contenedor_portfolios{
+    width: 100%; 
+    background: rgba(0, 0, 0, 0.493);
+    padding: 50px;
+    padding-top: 100px;
+}
+.title_portfolios{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container_portfolios{
+    width: 100%;
+    padding: 20px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+/**PORTFOLIO DEVELOPER*****************/
+.container_developer{
+    width: 500px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 1px;
+}
+.developer_izq{
+    width:250px ;
+    padding: 20px 1px;
+}
+.img_developer{
+    width: 250px;
+    height: 200px;
+    background-image: url(../img/CARPETADW.png);
+    background-size: 100% 100%;
+    
+}
+.developer_derecho{
+    width:250px ;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px red;
+    background: rgba(95, 3, 3, 0.863);
+    padding: 30px 10px;
+    
+}
+.title_developer{
+    text-align: center;
+    color: rgb(252, 252, 252);
+    font-size:25px ;
+    font-weight:bold;
+}
+.text_developer{
+    margin-top: 5px;
+    text-align: center;
+    color: whitesmoke;
+}
+.boton_developer{
+    margin-left: 65px;
+    margin-top: 40px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 0px rgb(73, 73, 73);
+}
+.boton_developer:hover{
+    box-shadow: 0px 1px 0px rgb(67, 67, 67);
+}
+
+
+/**PORTFOLIO DESING*****************/
+.container_desing{
+    width: 500px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 1px;
+}
+.desing_izq{
+    width:250px ;
+    padding: 20px 1px;
+}
+.img_desing{
+    width: 250px;
+    height: 200px;
+    background-image: url(../img/CARPETADS.png);
+    background-size: 100% 100%;
+    
+}
+.desing_derecho{
+    width:250px ;
+    padding: 30px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px rgb(22, 22, 22);
+    background: rgb(34, 34, 34);
+    padding: 30px 10px;
+}
+.title_desing{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight:bold;
+}
+.text_desing{
+    text-align:center;
+    color: rgb(255, 255, 255);
+}
+.boton_desing{
+    margin-left:65px;
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 0px rgb(37, 37, 37);
+}
+.boton_desing:hover{
+    box-shadow: 0px 1px 0px rgb(41, 41, 41);
+}
+
+
+
+/*************CONTENEDOR SECCION SERVICIOS*****************************/
+/******************************************/
+/******************************************/
+#cont_grande{
+    background:rgba(80, 10, 10, 0.699) ;
+    background-size: 100% 100%;
+    border-radius: 30px;
+    padding: 20px;
+}
+.mis_servicios{
+    padding-top: 100px;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cont_todos_marcos{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+/*******CUADRO 1 DE SERVICIOS******************/
+.cont_todos_marcos-marco{
+    margin: 5px 0px;
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.cont_todos_marcos-marco-image{
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/SERVICIOS/DESARROLLO.png);
+    background-size: 100% 100%;  
+}
+.cont_todos_marcos-marco-sup{
+    margin-top: -250px;
+    width: 100%;
+    height: 250px;
+    padding:35px 60px;
+    background:transparent;
+    
+}
+.cont_todos_marcos-marco:hover .cont_todos_marcos-marco-sup{
+    background: rgba(0, 0, 0, 0.836);
+}
+.cont_todos_marcos-marco-sup-title{
+    text-align: center;
+    font-size: 22px;
+    color:transparent;
+}
+.cont_todos_marcos-marco:hover .cont_todos_marcos-marco-sup-title{
+    color:rgb(177, 177, 177);
+}
+.cont_todos_marcos-marco-sup-text{
+    color: transparent;
+    text-align: center;
+}
+.cont_todos_marcos-marco:hover .cont_todos_marcos-marco-sup-text{
+    color: white;
+}
+
+.cont_todos_marcos-marco-image2{
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/SERVICIOS/WORDPRESS.png);
+    background-size: 100% 100%;
+}
+.cont_todos_marcos-marco-image3{
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/SERVICIOS/SOPORTE.png);
+    background-size: 100% 100%;
+}
+.cont_todos_marcos-marco-image4{
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/SERVICIOS/DISEÑOGRAFICO.png);
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+/*************CONTENEDOR CUARTA SECCION TECNOLOGIAS*****************************/
+/******************************************/
+/******************************************/
+.cont_bigbig{
+    width: 100%;
+    background-image: url(../img/TECNOLOGIAS/fondo.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+.cont_big{
+    
+    width: 100%;
+    padding: 20px;
+    background:rgba(0, 0, 0, 0.534);
+    }   
+    .hh{
+        padding-top: 100px;
+        text-align: center;
+        font-size:45px;  
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .cont_cont_cuadros{
+        
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+       
+    }
+    .cont_cont_cuadros .contcuadro{
+        width: 150px;
+        height: 150px;
+        
+        margin: 10px auto;
+
+    }
+    .mi_imagen1{
+        width:150px;
+        height:150px;
+        background-image: url(../img/TECNOLOGIAS/HTML5.png);
+        background-size: 100% 100%;
+        
+    }
+    .mi_imagen2{
+        width: 150px;
+        height: 150px;
+        background-image: url(../img/TECNOLOGIAS/CSS3.png);
+        background-size: 100% 100%;
+        
+    }
+    .mi_imagen3{
+        width: 150px;
+        height: 150px;
+        background-image: url(../img/TECNOLOGIAS/JAVASCRIPT.png);
+        background-size: 100% 100%;
+        
+    }
+    .mi_imagen4{
+        width: 150px;
+        height: 150px;
+        background-image: url(../img/TECNOLOGIAS/BOOTSTRAP.png);
+        background-size: 100% 100%;
+        
+    }
+    .mi_imagen5{
+        width: 150px;
+        height: 150px;
+        background-image: url(../img/TECNOLOGIAS/WORDPRESS.png);
+        background-size: 100% 100%;
+        
+    }
+    .mi_imagen6{
+        width: 150px;
+        height: 150px;
+        background-image: url(../img/TECNOLOGIAS/PHOTOSHOP.png);
+        background-size: 100% 100%;
+        
+    }
+    .mi_imagen7{
+        width: 150px;
+        height: 150px;
+        background-image: url(../img/TECNOLOGIAS/ILLUSTRATOR.png);
+        background-size: 100% 100%;
+        
+    }
+    
+
+
+
+
+
+/*************CONTENEDOR CUARTA SECCION CONTACTO*****************************/
+/******************************************/
+/******************************************/
+.titulo_sup_contacto{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 45px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.cont_base_contacto{
+    width: 100%;
+    background:white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+}
+.caja{
+    width:250px;
+    border:1px solid grey;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    border: 1px solid white;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.titulo_contacto{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: rgb(48, 47, 47);
+    color: white;
+    padding: 10px;
+    font-size:20px;
+    
+}
+.texto_contacto{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+.imagen_contacto{
+    width: 70px;
+    height: 70px;
+    margin: 5px auto;
+   
+}
+
+
+
+/*************CONTENEDOR GUIAS*****************************/
+/******************************************/
+/******************************************/
+.cont_guias{
+    width: 60px;
+    height: 40px;
+    background-image: url(../img/flechas_arriba.png);
+    background-size: 100% 100%;
+    position: fixed;
+    right: 20px;
+    bottom: 120px;
+    
+}
+
+
+
+/*************CONTENEDOR SECCION FOOTER*****************************/
+/******************************************/
+/******************************************/
+#seccion_footer{
+    width: 100%;
+    background: transparent;
+    padding: 10px 1px;
+   
+}
+.menu_inferior{
+    width: 100%;
+    margin: auto;   
+    
+}
+.nav .ul{
+    
+    width:100%;
+    margin: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav .ul .li{
+    
+    padding: 10px;
+    display: inline-block;
+}
+.nav .ul .li .a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav .ul .li .a:hover{
+    color: rgb(253, 31, 76);
+}
+.descrip_peque{
+    
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************RICHARD MAX 1920px**************************/
+@media only screen and (max-width:423px){
+/*************CONTENEDOR CUADRO RED*****************************/
+/******************************************/
+/******************************************/
+.contenedor_cuadro_presentacion{
+    /*margin-top:80px;
+    width: 100%;*/
+    background-image: url(../img/imagen_cabezera.jpg);
+    background-size:cover;
+    background-attachment:unset;
+}
+/*.cuadro{
+    width: 100%;
+    height: 490px;
+    background: rgba(0, 0, 0, 0.74);
+    padding-top: 40px;
+}*/
+/*@keyframes movimiento{
+    animation: movimiento 10s infinite linear alternate;
+    from{
+     background-position: bottom left ;
+    }to{
+     background-position: top right;
+    }
+}*/
+/*.contenedor_cuadro_presentacion .cuadro{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/FRANJA_MAYOR.png);
+    background-size: 100% 100%;
+    
+}*/
+.titulo_principal{
+    /*text-align: center;
+    color:white;*/
+    font-size: 35px;
+    
+}
+.subtitle{
+    /*text-align: center;
+    color: rgb(160, 160, 160);*/
+    font-size: 18px;
+}
+
+
+.contenedor_redessociales{
+    width: 160px;
+    height: 50px;
+    margin-top: 230px;
+    /*margin: auto;
+    display: flex;
+    justify-content:space-around;*/
+}
+.instagram{
+    width: 40px;
+    height: 40px;
+    
+}
+.faccebook{
+    width: 40px;
+    height: 40px;
+    
+
+}
+.twiter{
+    width: 40px;
+    height: 40px;
+    
+}
+.youtube{
+    width: 40px;
+    height: 40px;
+   
+}
+
+/*************CONTENEDOR ACERCA DE*****************************/
+/******************************************/
+/******************************************/
+#cont_descripcion_foto{
+    padding-top:50px;
+    /*width: 100%;
+    padding: 20px;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;*/
+}
+/*.contenedor_izq{
+    width: 500px;
+    padding: 30px;
+}*/
+
+.titulo_acerca{
+    /*font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);*/
+    font-size: 35px;
+    
+}
+.descripcion_acerca{
+    /*text-align: justify;
+    color: rgb(255, 255, 255);*/
+}
+
+.contenedor_der{
+   /* 
+    width: 400px;*/
+     
+} 
+.contenedor_der .foto{
+    width: 200px;
+    height: 200px;
+    /*background-image: url(../img/foto.jpg);
+    background-size: 100% 100%; 
+    margin:auto;
+    border-radius:50%;
+    box-shadow: 0px 0px 10px black;*/
+}
+
+/*************CONTENEDOR PORTAFOLIO*****************************/
+/******************************************/
+/******************************************/
+#contenedor_portfolios{
+    padding: 20px;
+    /*width: 100%; 
+    background: rgba(0, 0, 0, 0.493);
+    padding-top: 100px;*/
+}
+.title_portfolios{
+    font-size:35px;
+    /*color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;*/
+}
+.container_portfolios{
+   
+    padding:10px;
+    /*width: 100%;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;*/
+    
+}
+/**PORTFOLIO DEVELOPER*****************/
+.container_developer{
+    width:100%;
+    margin: 5px 1px;
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;*/
+    
+}
+.developer_izq{
+    /*background: turquoise;
+    width:250px ;
+    padding: 20px 1px;*/
+}
+.img_developer{
+    width: 230px;
+    height: 170px;
+   
+    
+}
+.developer_derecho{
+    width:100%;
+    border-radius: 10px;
+    /*box-shadow: 0px 5px 5px red;
+    background: rgba(95, 3, 3, 0.863);*/
+    padding: 20px 5px;
+    
+}
+.title_developer{
+    font-size:23px ;
+    font-weight:unset;
+}
+.text_developer{
+    /*margin-top: 5px;
+    text-align: center;
+    color: whitesmoke;*/
+}
+.boton_developer{
+    margin-left:110px;
+    /*margin-top: 40px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 0px rgb(73, 73, 73);*/
+}
+
+
+
+/**PORTFOLIO DESING*****************/
+.container_desing{
+   
+    width: 100%;
+    margin: 5px 1px;
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;*/
+   
+}
+.desing_izq{
+    /*width:250px ;
+    padding: 20px 1px;*/
+}
+.img_desing{
+    width: 230px;
+    height: 170px;
+   
+    
+}
+.desing_derecho{
+    width:100%;
+    padding: 30px 10px;
+    border-radius: 10px;
+    /*box-shadow: 0px 5px 5px rgb(22, 22, 22);
+    background: rgb(34, 34, 34);
+    padding: 30px 10px;*/
+}
+.title_desing{
+    /*text-align: center;
+    color: rgb(255, 255, 255);*/
+    font-size: 23px;
+    font-weight:unset;
+}
+.text_desing{
+    text-align:center;
+    color: rgb(255, 255, 255);
+}
+.boton_desing{
+    margin-left:110px;
+    /*margin-top: 10px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 0px rgb(37, 37, 37);*/
+}
+
+
+
+
+
+
+
+
+
+
+  
+
+/*************CONTENEDOR SECCION SERVICIOS*****************************/
+/******************************************/
+/******************************************/
+#cont_grande{
+    /*background:rgba(80, 10, 10, 0.699) ;
+    background-size: 100% 100%;
+    border-radius: 30px;*/
+    padding:5px;
+}
+.mis_servicios{
+    font-size: 35px;
+    /*padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;*/
+}
+.cont_todos_marcos{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 0px;
+    /*display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;*/
+    
+}
+
+
+
+
+
+
+
+/*************CONTENEDOR CUARTA SECCION TECNOLOGIAS*****************************/
+/******************************************/
+/******************************************/
+.cont_big{
+    /*width: 100%;
+    padding: 20px;
+    background:rgba(0, 0, 0, 0.664);*/
+    }   
+    .hh{
+        font-size:35px;  
+        /*padding-top: 100px;
+        text-align: center;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;*/
+    }
+    .cont_cont_cuadros{
+       
+       /* margin-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;*/
+       
+    }
+    .cont_cont_cuadros .contcuadro{
+        width: 120px;
+        height: 120px;
+        /*margin: 10px auto;*/
+
+    }
+    .mi_imagen1{
+        width:120px;
+        height:120px;
+       
+        
+    }
+    .mi_imagen2{
+        width: 120px;
+        height: 120px;
+      
+        
+    }
+    .mi_imagen3{
+        width: 120px;
+        height: 120px;
+        
+        
+    }
+    .mi_imagen4{
+        width: 120px;
+        height: 120px;
+       
+        
+    }
+    .mi_imagen5{
+        width: 120px;
+        height: 120px;
+       
+        
+    }
+    .mi_imagen6{
+        width: 120px;
+        height: 120px;
+       
+        
+    }
+    .mi_imagen7{
+        width: 120px;
+        height: 120px;
+        
+    }
+
+
+
+    
+/*************CONTENEDOR CUARTA SECCION CONTACTO*****************************/
+/******************************************/
+/******************************************/
+.titulo_sup_contacto{
+    font-size: 35px;
+    /*text-align: center;
+    padding-top: 100px;
+   
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;*/
+}
+.cont_base_contacto{
+    /*width: 100%;
+    background:white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 50px;*/
+}
+.caja{
+    /*border-radius:10px;
+    width:250px;
+    border:1px solid grey;
+    box-shadow: 0px 0px 10px black;
+    margin: 10px auto;
+    overflow: hidden;*/
+}
+/*.titulo_contacto{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: rgb(48, 47, 47);
+    color: white;
+    padding: 10px;
+    font-size:20px;
+    
+}
+.texto_contacto{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}*/
+.imagen_contacto{
+    width: 50px;
+    height: 50px;
+    margin: 5px auto;
+   
+}
+
+
+    /*************CONTENEDOR SECCION FOOTER*****************************/
+/******************************************/
+/******************************************/
+#seccion_footer{
+    /*width: 100%;*/
+    padding: 5px 1px;
+   
+}
+.menu_inferior{
+    /*width: 100%;
+    margin: auto;
+    background: yellowgreen;   */
+}
+.nav .ul{
+    
+    /*width:100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;*/
+}
+.nav .ul .li{
+    width: 150px;
+    margin-left: -20px;
+    text-align: center;
+    padding: 2px;
+    line-height: 12pt;
+    /*display: inline-block;*/
+}
+.nav .ul .li .a{
+    /*color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;*/
+    
+}
+/*.nav .ul .li .a:hover{
+    color: rgb(99, 99, 99);
+}*/
+.descrip_peque{
+    /*color: white;
+    text-align: center;*/
+    padding-top: 3px;
+}  
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+    /******************************************/
+   /******************************************/
+    /******************************************/
+   /****************MOVIL TOÑO MAX 720px**************************/
+@media only screen and (max-width:380px){
+    
+   
+    /*************CONTENEDOR CUADRO RED*****************************/
+   /******************************************/
+   .contenedor_cuadro_presentacion{
+       margin-top:80px;
+       width: 100%;
+       background-image: url(../img/imagen_cabezera.jpg);
+       background-size:cover;
+       background-attachment:unset;
+   }
+   .cuadro{
+       width: 100%;
+       height: 450px;
+       background: rgba(0, 0, 0, 0.74);
+       padding-top: 40px;
+   }
+   .titulo_principal{
+       font-size: 35px;
+       
+   }
+   .subtitle{
+    text-align: center;
+    color: rgb(160, 160, 160);
+    font-size: 18px;
+}
+   .contenedor_redessociales{
+       margin-top: 180px;
+       width: 150px;
+       height: 50px;
+   }
+   .instagram{
+       width: 35px;
+       height: 35px;  
+   }
+   .faccebook{
+       width: 35px;
+       height: 35px;
+   }
+   .twiter{
+       width: 35px;
+       height: 35px;
+   }
+   .youtube{
+       width: 35px;
+       height: 35px;
+   }
+
+
+
+  /*************CONTENEDOR ACERCA DE*****************************/
+/******************************************/
+/******************************************/
+
+
+.titulo_acerca{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+.descripcion_acerca{
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+
+
+.contenedor_der .foto{
+    width: 180px;
+    height: 180px;
+}
+
+
+
+
+
+/*************CONTENEDOR PORTAFOLIO*****************************/
+/******************************************/
+/******************************************/
+#contenedor_portfolios{
+    width: 100%; 
+    background: rgba(0, 0, 0, 0.493);
+    padding: 50px 10px;
+    padding-top: 100px;
+}
+.title_portfolios{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/**PORTFOLIO DEVELOPER*****************/
+.developer_derecho{
+    width:100%;
+    border-radius:5px;
+    box-shadow: 0px 5px 5px red;
+    background: rgba(95, 3, 3, 0.863);
+    padding: 30px 10px;
+    
+}
+
+.text_developer{
+    margin-top: 5px;
+    text-align: center;
+    color: whitesmoke;
+
+}
+.boton_developer{
+    margin-left: 90px;  
+}
+
+/**PORTFOLIO DESING*****************/
+
+.desing_derecho{
+    width:100% ;
+    padding: 30px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px rgb(22, 22, 22);
+    padding: 30px 10px;
+}
+.text_desing{
+    text-align:center;
+    color: rgb(255, 255, 255);
+    
+}
+.boton_desing{
+    margin-left:90px;
+   
+}
+.boton_desing:hover{
+    box-shadow: 0px 1px 0px rgb(41, 41, 41);
+}
+
+
+
+
+
+/*************CONTENEDOR SECCION SERVICIOS*****************************/
+/******************************************/
+/******************************************/
+/*************CONTENEDOR SECCION SERVICIOS*****************************/
+/******************************************/
+/******************************************/
+#cont_grande{
+  
+}
+.mis_servicios{
+   
+    font-size: 40px;
+}
+.cont_todos_marcos{
+    margin-top: 20px;
+    width: 100%;
+    
+    padding: 10px 0px;
+    
+}
+
+
+/*******CUADRO 1 DE SERVICIOS******************/
+.cont_todos_marcos-marco{
+    margin: 5px 0px;
+    width: 100%;
+    
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cont_todos_marcos-marco-image{
+    width: 100%;
+    height: 230px;
+   
+}
+.cont_todos_marcos-marco-sup{
+    margin-top: -250px;
+    width: 100%;
+    height: 250px;
+    padding:35px 60px;
+    background:transparent;
+    
+}
+
+.cont_todos_marcos-marco-sup-title{
+    text-align: center;
+    font-size: 22px;
+    color:transparent;
+}
+.cont_todos_marcos-marco:hover .cont_todos_marcos-marco-sup-title{
+    color:rgb(177, 177, 177);
+}
+.cont_todos_marcos-marco-sup-text{
+    color: transparent;
+    text-align: center;
+}
+.cont_todos_marcos-marco:hover .cont_todos_marcos-marco-sup-text{
+    color: white;
+}
+
+.cont_todos_marcos-marco-image2{
+    width: 100%;
+    height: 230px;
+   
+}
+.cont_todos_marcos-marco-image3{
+    width: 100%;
+    height: 230px;
+  
+}
+.cont_todos_marcos-marco-image4{
+    width: 100%;
+    height: 230px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************CONTENEDOR CUARTA SECCION TECNOLOGIAS*****************************/
+/******************************************/
+/******************************************/
+.cont_big{
+    width: 100%;
+    padding: 20px;
+    background:rgba(0, 0, 0, 0.664);
+    }   
+    .hh{
+        padding-top: 100px;
+        text-align: center;
+        font-size:40px;  
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .cont_cont_cuadros{
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+       
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 5px;
+        
+    }
+    .cont_cont_cuadros .contcuadro{
+        width: 100px;
+        height: 100px;
+        margin: 5px auto;
+        background:rgb(41, 41, 41) ;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px black;
+    }
+    .mi_imagen1{
+        width:100px;
+        height:100px;
+        
+        
+    }
+    .mi_imagen2{
+        width: 100px;
+        height: 100px;
+       
+        
+    }
+    .mi_imagen3{
+        width: 100px;
+        height: 100px;
+        
+        
+    }
+    .mi_imagen4{
+        width: 100px;
+        height: 100px;
+       
+        
+    }
+    .mi_imagen5{
+        width: 100px;
+        height: 100px;
+        
+        
+    }
+    .mi_imagen6{
+        width: 100px;
+        height: 100px;
+       
+        
+    }
+    .mi_imagen7{
+        width: 100px;
+        height: 100px;
+       
+    }
+
+
+/*************CONTENEDOR CUARTA SECCION CONTACTO*****************************/
+/******************************************/
+/******************************************/
+.titulo_sup_contacto{
+    font-size: 40px;
+}
+
+.titulo_contacto{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: rgb(48, 47, 47);
+    color: white;
+    padding: 10px;
+    font-size:23px;
+    
+}
+.imagen_contacto{
+    width: 50px;
+    height: 50px;
+    margin: 5px auto;  
+}
+
+/*************CONTENEDOR GUIAS*****************************/
+/******************************************/
+/******************************************/
+.cont_guias{
+    width: 50px;
+    height: 30px;
+    position: fixed;
+    right: 10px;
+    bottom: 140px;
+    
+}
+
+/*************CONTENEDOR SECCION FOOTER*****************************/
+/******************************************/
+/******************************************/
+
+/*************CONTENEDOR SECCION FOOTER*****************************/
+/******************************************/
+/******************************************/
+
+
+/*************CONTENEDOR SECCION FOOTER*****************************/
+/******************************************/
+/******************************************/
+#seccion_footer{
+    /*width: 100%;*/
+    padding: 5px 1px;
+   
+}
+.menu_inferior{
+    /*width: 100%;
+    margin: auto;
+    background: yellowgreen;   */
+}
+.nav .ul{
+    
+    /*width:100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;*/
+}
+.nav .ul .li{
+    width: 150px;
+    margin-left: -20px;
+    text-align: center;
+    padding: 2px;
+    line-height: 12pt;
+    /*display: inline-block;*/
+}
+.nav .ul .li .a{
+    /*color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;*/
+    
+}
+/*.nav .ul .li .a:hover{
+    color: rgb(99, 99, 99);
+}*/
+.descrip_peque{
+    /*color: white;
+    text-align: center;*/
+    padding-top: 3px;
+}
+
+ } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************/
+   /******************************************/
+    /******************************************/
+   /******************************************/
+    /******************************************/
+   /**************CELU MAMA 480px****************************/
+
+
+@media only screen and (max-width:330px){
+    .titulo_principal{
+        text-align: center;
+        color:rgb(255, 255, 255);
+        font-size: 30px;
+    }
+/*************CONTENEDOR ACERCA DE*****************************/
+/******************************************/
+/******************************************/
+.titulo_acerca{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:35px;
+    color: rgb(255, 255, 255);
+}
+.subtitle{
+    text-align: center;
+    color: rgb(160, 160, 160);
+    font-size: 15px;
+}
+.descripcion_acerca{
+    text-align:justify;
+    color: rgb(255, 255, 255);
+}
+
+
+.contenedor_der .foto{
+    width: 150px;
+    height: 150px;
+}
+.contenedor_redessociales{
+    margin-top: 200px;
+    width: 150px;
+    height: 50px;
+}
+
+/*************CONTENEDOR PORTAFOLIO*****************************/
+/******************************************/
+/******************************************/
+
+.title_portfolios{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  
+.boton_developer{
+    margin-left: 70px;  
+}
+.boton_desing{
+    margin-left:70px;
+   
+}
+
+
+
+/*************CONTENEDOR SECCION SERVICIOS*****************************/
+/******************************************/
+/******************************************/
+
+#cont_grande{
+  
+}
+.mis_servicios{
+   
+    font-size: 35px;
+}
+.cont_todos_marcos{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 0px;
+    
+}
+
+
+/*******CUADRO 1 DE SERVICIOS******************/
+.cont_todos_marcos-marco{
+    margin: 5px 0px;
+    width: 100%;   
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cont_todos_marcos-marco-image{
+    width: 100%;
+    height: 200px;
+   
+}
+.cont_todos_marcos-marco-sup{
+    margin-top: -250px;
+    width: 100%;
+    height: 250px;
+    padding:35px 60px;
+    
+}
+
+.cont_todos_marcos-marco-sup-title{
+    text-align: center;
+    font-size: 22px;
+    color:transparent;
+}
+.cont_todos_marcos-marco:hover .cont_todos_marcos-marco-sup-title{
+    color:rgb(177, 177, 177);
+}
+.cont_todos_marcos-marco-sup-text{
+    color: transparent;
+    text-align: center;
+}
+.cont_todos_marcos-marco:hover .cont_todos_marcos-marco-sup-text{
+    color: white;
+}
+
+.cont_todos_marcos-marco-image2{
+    width: 100%;
+    height: 200px;
+   
+}
+.cont_todos_marcos-marco-image3{
+    width: 100%;
+    height: 200px;
+  
+}
+.cont_todos_marcos-marco-image4{
+    width: 100%;
+    height: 200px;
+    
+}
+
+
+/*******CUADRO 1 DE SERVICIOS******************/
+.cont_todos_marcos-marco{
+    margin: 5px 0px;
+    width: 280px;
+    border-radius:5px;
+    background: white;
+   
+}
+
+.cont_todos_marcos-marco-sup{
+    margin-top: -200px;
+    width: 280px;
+    height: 200px;
+    padding:15px 30px;
+    background:transparent;
+    
+}
+
+.cont_todos_marcos-marco-sup-title{
+   
+    font-size: 22px;
+    
+}
+.cont_todos_marcos-marco-sup-text{
+    font-size: 15px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*************CONTENEDOR CUARTA SECCION TECNOLOGIAS*****************************/
+/******************************************/
+/******************************************/
+.cont_big{
+    width: 100%;
+    padding: 20px;
+    background:rgba(0, 0, 0, 0.664);
+    }  
+    
+    
+
+    .hh{
+        font-size:35px;    
+    }
+
+    .cont_cont_cuadros .contcuadro{
+        width: 90px;
+        height:90px;
+        margin: 5px auto;
+        background: rgb(46, 46, 46);
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px black;
+    }
+    .mi_imagen1{
+        width:100%;
+        height:100%;
+       
+        
+    }
+    .mi_imagen2{
+        width: 90px;
+        height: 90px;
+       
+        
+    }
+    .mi_imagen3{
+        width: 90px;
+        height: 90px;
+       
+        
+    }
+    .mi_imagen4{
+        width: 90px;
+        height: 90px;
+       
+        
+    }
+    .mi_imagen5{
+        width: 90px;
+        height: 90px;
+       
+        
+    }
+    .mi_imagen6{
+        width: 90px;
+        height: 90px;
+       
+        
+    }
+    .mi_imagen7{
+        width: 90px;
+        height: 90px;
+        
+    }
+    
+
+
+    /*************CONTENEDOR CUARTA SECCION CONTACTO*****************************/
+/******************************************/
+/******************************************/
+.titulo_sup_contacto{
+    font-size: 35px;
+}
+.cont_base_contacto{
+    width: 100%;
+    background:white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.titulo_contacto{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: rgb(48, 47, 47);
+    color: white;
+    padding: 10px;
+    font-size:20px;
+    
+}
+.texto_contacto{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+.imagen_contacto{
+    width: 50px;
+    height: 50px;
+    margin: 5px auto;
+   
+}
+
+
+
+/*************CONTENEDOR GUIAS*****************************/
+/******************************************/
+/******************************************/
+.cont_guias{
+    width: 60px;
+    height: 40px;
+    background-image: url(../img/flechas_arriba.png);
+    background-size: 100% 100%;
+    position: fixed;
+    bottom: 160px;
+    
+}
+
+
+/*************CONTENEDOR SECCION FOOTER*****************************/
+/******************************************/
+/******************************************/
+#seccion_footer{
+    /*width: 100%;*/;
+    padding: 5px 1px;
+   
+}
+.menu_inferior{
+    /*width: 100%;
+    margin: auto;
+    background: yellowgreen;   */
+    
+}
+.nav .ul{
+   
+    /*width:100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;*/
+}
+.nav .ul .li{
+    
+    width: 140px;
+    margin-left: -33px;
+    /*text-align: center;
+    padding: 2px;
+    line-height: 12pt;
+    display: inline-block;*/
+}
+.nav .ul .li .a{
+    
+    /*color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;*/
+    
+}
+/*.nav .ul .li .a:hover{
+    color: rgb(99, 99, 99);
+}*/
+.descrip_peque{
+    /*color: white;
+    text-align: center;*/
+    padding-top: 3px;
+    font-size: 13px;
+    
+}
+
+
+
+   }
+   
